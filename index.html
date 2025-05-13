@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+  <head>
+    <meta charset="utf-8" />
+    <title>furniture-moving</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="lib/animate/animate.min.css" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+     <style>
+        .text-box {
+            display: none; 
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0" >
+<!-- Navbar -->
+<nav class="bg-green-400 shadow-md px-4 py-3 md:px-8 rtl  text-right py-4" dir="rtl">
+  <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between">
+    
+    <!-- Logo -->
+    <a href="#" class="text-white text-2xl font-bold flex items-center gap-2">
+      <i class="fas fa-search-dollar text-white text-xl"></i>
+      نقل عفش جدة
+    </a>
+
+    <!-- Mobile Toggle Button -->
+    <button id="menu-toggle" class="text-white text-2xl md:hidden">
+      <i class="fa fa-bars"></i>
+    </button>
+
+    <!-- Menu -->
+    <div id="navbar-menu" class="hidden w-full md:flex md:w-auto m-auto md:mt-0 items-center justify-between">
+      <ul class="flex flex-col md:flex-row gap-4 md:gap-6 text-lg font-medium md:items-center">
+        <li>
+          <a href="index.html" class="relative group text-white">
+            الرئيسية
+            <span class="absolute bottom-0 right-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="relative group text-white">
+            من نحن
+            <span class="absolute bottom-0 right-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#service" class="relative group text-white">
+            خدماتنا
+            <span class="absolute bottom-0 right-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#offer" class="relative group text-white">
+           عروضنا
+            <span class="absolute bottom-0 right-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Icon at the end -->
+    <div class="hidden md:flex items-center gap-2 text-white">
+      <i class="fas fa-phone-alt text-xl"></i>
+      <span class="text-sm">اتصل بنا</span>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Script -->
+<script>
+  const toggleBtn = document.getElementById("menu-toggle");
+  const menu = document.getElementById("navbar-menu");
+
+  toggleBtn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>
+
+
+      <!-- Carousel Start -->
+      <div class="header-carousel owl-carousel">
+        <div class="header-carousel-item">
+          <img
+            src="img/pexels-fotoaibe-1571460.jpg"
+            class="img-fluid w-full"
+            alt="نقل عفش"
+          />
+          <div
+            class="carousel-caption absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 py-4 px-6"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-7 m-auto">
+                  <h4 class="text-primary text-uppercase font-bold mb-4">
+                    أهلاً بكم في نقل عفش جدة
+                  </h4>
+                  <h1 class="text-white text-4xl mb-4">
+                    نقل عفش سريع وآمن داخل جدة
+                  </h1>
+                  <p class="mb-5 text-lg text-white">
+                    نقدم خدمات احترافية في نقل الأثاث داخل جدة مع تغليف وحماية
+                    كاملة للأثاث.
+                  </p>
+                  <div class="d-flex justify-content-center mb-4">
+                    <a class="btn bg-light rounded-full py-3 px-4 me-2" href="#"
+                      ><i class="fas fa-play-circle me-2"></i> مشاهدة الفيديو</a
+                    >
+                    <a
+                      class="btn bg-primary text-white rounded-full py-3 px-4 ms-2"
+                      href="#"
+                      >اعرف أكثر</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Item 2 -->
+        <div class="header-carousel-item">
+          <img
+            src="img/pexels-pixabay-276528.jpg"
+            class="img-fluid w-full"
+            alt="خدمات نقل العفش"
+          />
+          <div
+            class="carousel-caption absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 py-4 px-6"
+          >
+            <div class="container">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <h4 class="text-primary text-uppercase font-bold mb-4">
+                    خدماتنا تشمل كل شيء
+                  </h4>
+                  <h1 class="text-white text-4xl mb-4">
+                    تغليف - فك وتركيب - نقل احترافي
+                  </h1>
+                  <p class="mb-5 text-lg text-white">
+                    لدينا فريق متخصص في فك وتركيب العفش باستخدام أفضل الأدوات
+                    الحديثة.
+                  </p>
+                  <div class="d-flex justify-content-center mb-4">
+                    <a class="btn bg-light rounded-full py-3 px-4 me-2" href="#"
+                      ><i class="fas fa-play-circle me-2"></i> مشاهدة الفيديو</a
+                    >
+                    <a
+                      class="btn bg-primary text-white rounded-full py-3 px-4 ms-2"
+                      href="#"
+                      >اعرف أكثر</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel End -->
+    </div>
+
+    <!-- Navbar & Hero End -->
+
+    <!-- About Start -->
+    <section class="bg-white py-10 px-4 pt-[70px]" dir="rtl"id="about"> >
+      <div
+        class="container w-[90%] mx-auto flex flex-col lg:flex-row items-center gtext-start gap-10"
+      >
+        <div class="lg:w-7/12 space-y-6">
+          <h4 class="text-green-400 text-xl font-semibold">من نحن</h4>
+          <h2 class="text-3xl md:text-4xl font-bold">
+            نحن شركتك المثالية لنقل العفش بكل احترافية
+          </h2>
+          <p class="text-gray-400">
+            نقدم خدمات نقل عفش آمنة وفعّالة داخل وخارج جدة، مع فريق متخصص في فك
+            وتركيب الأثاث وتغليفه بأعلى جودة.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-6">
+            <div class="flex items-start gap-4">
+              <i class="fas fa-dolly-flatbed text-green-400 text-3xl"></i>
+              <div>
+                <h4 class="text-lg font-semibold">نقل سريع وآمن</h4>
+                <p class="text-sm text-gray-400">
+                  نقل الأثاث بأحدث السيارات المغلقة والمجهزة.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <i class="fas fa-boxes text-green-400 text-3xl"></i>
+              <div>
+                <h4 class="text-lg font-semibold">تغليف احترافي</h4>
+                <p class="text-sm text-gray-600">
+                  نوفر مواد تغليف متينة لحماية جميع أنواع الأثاث.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-6 pt-4">
+            <a
+              href="#"
+              class="btn bg-green-400 text-white py-3 px-6 rounded-full shadow hover:bg-green-500 transition"
+            >
+              اكتشف المزيد
+            </a>
+            <div class="flex items-center gap-4">
+              <i class="fas fa-phone-alt text-green-400 text-2xl"></i>
+              <div>
+                <h4 class="font-semibold">اتصل بنا</h4>
+                <p class="text-lg tracking-wide">+966 50 123 4567</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-5/12 relative">
+          <div class="relative overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="img/pexels-rdne-7464687.jpg"
+              alt="نقل عفش"
+              class="rounded-top-4 w-full h-72 object-cover hover:scale-105 transition duration-500"
+            />
+
+            <img
+              src="img/istockphoto-1395748211-612x612.jpg"
+              alt=""
+              class="rounded-b-lg w-full h-40 object-cover hover:scale-105 transition duration-500"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid blog pb-5 pt-5 " id="service">
+      <div class="container pb-5 ">
+        <div
+          class="text-center mx-auto pb-5 wow fadeInUp"
+          data-wow-delay="0.2s"
+          style="max-width: 800px"
+        >
+          <h4 class="text-primary"> خدماتنا</h4>
+          <h1 class="display-5 mb-4">أفضل خدمات نقل العفش بأعلى جودة</h1>
+          <p class="mb-0">
+            نحن نقدم معلومات قيمة ونصائح حول كيفية نقل العفش بأمان وسهولة. تابع
+            مقالاتنا لتتعرف على أفضل الممارسات والخدمات المتاحة.
+          </p>
+        </div>
+        <div
+          class="owl-carousel blog-carousel wow fadeInUp"
+          data-wow-delay="0.2s"
+        >
+          <div class="blog-item p-4 text-right ">
+            <div class="blog-img mb-4">
+                <img
+                src="img/istockphoto-1395748211-612x612.jpg"
+                alt="نقل داخلي"
+                class="w-full h-52 object-cover"
+              />
+              <div class="blog-title">
+                <a href="#" class="btn">نقل العفش بأمان</a>
+              </div>
+            </div>
+            <a href="#" class="h4 d-inline-block mb-3">نقل داخلي داخل المدينة</a>
+            <p class="mb-4">
+              تعرف على كيفية نقل العفش بأمان باستخدام أفضل المعدات والتقنيات
+              الحديثة لضمان سلامة أثاثك.
+            </p>
+            <div class="d-flex align-items-center text-center">
+             <a href="#"class="inline-block bg-green-400 text-white py-2 px-5 rounded-full hover:bg-green-500 transition">عرض المزيد</a>
+              
+                
+            </div>
+          </div>
+          <div class="blog-item p-4  text-right">
+            <div class="blog-img mb-4">
+              <img
+                src="img/pexels-zeng-jinwen-679366437-17912719.jpg"
+                alt="نقل خارجي"
+                class="w-full h-52 object-cover"
+              />
+              <div class="blog-title">
+                <a href="#" class="btn">نقل خارجي</a>
+              </div>
+            </div>
+            <a href="#" class="h4 d-inline-block mb-3"
+              >كيفية نقل الأثاث بالخارج </a
+            >
+            <p class="mb-4">
+              نغطي جميع مناطق المملكة بسيارات مجهزة لنقل العفش بين المدن بأمان
+                تام.
+            </p>
+            <div class="d-flex align-items-center">
+            <a href="#"class="inline-block bg-green-400 text-white py-2 px-5 rounded-full hover:bg-green-500 transition">عرض المزيد</a>
+
+            </div>
+          </div>
+          <div class="blog-item p-4  text-right">
+            <div class="blog-img mb-4">
+               <img
+                src="img/istockphoto-135385164-612x612.jpg"
+                alt="تغليف الأثاث"
+                class="w-full h-52 object-cover"
+              />
+              <div class="blog-title">
+                <a href="#" class="btn"> تغليف الأثاث</a>
+              </div>
+            </div>
+            <a href="#" class="h4 d-inline-block mb-3"
+              > تغليف الأثاث بسهولة</a
+            >
+            <p class="mb-4">
+                نوفر مواد تغليف مخصصة لحماية الأثاث من الخدوش أو الكسر أثناء
+                                النقل.            </p>
+            <div class="d-flex align-items-center">
+             
+            <a href="#"class="inline-block bg-green-400 text-white py-2 px-5 rounded-full hover:bg-green-500 transition">عرض المزيد</a>
+
+            </div>
+          </div>
+          <div class="blog-item p-4  text-right">
+            <div class="blog-img mb-4">
+              <img
+                src="img/pexels-tima-miroshnichenko-6169639.jpg"
+                alt="تخزين الأثاث"
+                class="w-full h-52 object-cover"
+              />
+              <div class="blog-title">
+                <a href="#" class="btn">حفظ وتخزين الأثاث</a>
+              </div>
+            </div>
+            <a href="#" class="h4 d-inline-block mb-3"
+              >خدمات تخزين الاثاث </a
+            >
+            <p class="mb-4">
+                  نوفر مستودعات آمنة ومجهزة لتخزين الأثاث مؤقتًا حسب الحاجة.
+
+            </p>
+            <div class="d-flex align-items-center">
+             <a href="#"class="inline-block bg-green-400 text-white py-2 px-5 rounded-full hover:bg-green-500 transition">عرض المزيد</a>
+
+             
+            </div>
+          </div>
+          <div class="blog-item p-4  text-right">
+            <div class="blog-img mb-4">
+              <img
+                src="img/pexels-athena-1804173.jpg"
+                alt="رفع عفش بالونش"
+                class="w-full h-52 object-cover"
+              />
+              <div class="blog-title">
+                <a href="#" class="btn">خدمة الرفع</a>
+              </div>
+            </div>
+            <a href="#" class="h4 d-inline-block mb-3"
+              >خدمة ونش رفع العفش</a
+            >
+            <p class="mb-4">
+نقدم ونش كهربائي وهيدروليكي لرفع العفش للأدوار العليا بسهولة
+                  وأمان.
+            </p>
+            <div class="d-flex align-items-center">
+             <a href="#"class="inline-block bg-green-400 text-white py-2 px-5 rounded-full hover:bg-green-500 transition">عرض المزيد</a>
+
+             
+            </div>
+          </div>
+          <div class="blog-item p-4  text-right">
+            <div class="blog-img mb-4">
+              <img
+                src="img/pexels-rdne-7464393.jpg"
+                alt="فك وتركيب"
+                class="w-full h-52 object-cover"
+              />
+              <div class="blog-title">
+                <a href="#" class="btn">فك وتركيب الأثاث</a>
+              </div>
+            </div>
+            <a href="#" class="h4 d-inline-block mb-3"
+              >خدمات فك وتركيب سريعة </a
+            >
+            <p class="mb-4">
+            نقوم بفك جميع أنواع الأثاث وتركيبه باحترافية دون أي ضرر.في الاثاث
+
+            </p>
+            <div class="d-flex align-items-center">
+             <a href="#"class="inline-block bg-green-400 text-white py-2 px-5 rounded-full hover:bg-green-500 transition">عرض المزيد</a>
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Services End -->
+
+    <!-- Offer Start -->
+    <div class="container-fluid offer-section pb-5 w-[90%] mx-auto" id="offer">
+    <div class="container pb-5">
+        <div
+            class="text-center mx-auto pb-5 wow fadeInUp"
+            data-wow-delay="0.2s"
+            style="max-width: 800px"
+        >
+            <h4 class="text-primary">عروضنا الخاصة</h4>
+            <h1 class="display-5 mb-4">استفد من عروضنا المميزة</h1>
+            <p class="mb-0">
+                احصل على أفضل العروض على خدمات نقل العفش لدينا. نحن نقدم خصومات مميزة على خدمات النقل والتغليف، مما يضمن لك تجربة مريحة وآمنة.
+            </p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="nav nav-pills  rounded ">
+                    <a
+                        class="accordion-link p-4 active mb-4"
+                        data-bs-toggle="pill"
+                        href="#collapseOne"
+                        onclick="changeImage('img/istockphoto-1395748211-612x612.jpg')"
+                    >
+                        <h5 class="mb-0">عرض خاص: نقل العفش بأمان</h5>
+                    </a>
+                    <a
+                        class="accordion-link p-4 mb-4"
+                        data-bs-toggle="pill"
+                        href="#collapseTwo"
+                        onclick="changeImage('img/istockphoto-135385164-612x612.jpg')"
+                    >
+                        <h5 class="mb-0">عرض: تغليف احترافي بسعر مخفض</h5>
+                    </a>
+                    <a
+                        class="accordion-link p-4 mb-4"
+                        data-bs-toggle="pill"
+                        href="#collapseThree"
+                        onclick="changeImage('img/pexels-rdne-7464393.jpg')"
+                    >
+                        <h5 class="mb-0">عرض: فك وتركيب الأثاث مجانًا عند النقل</h5>
+                    </a>
+                    <a
+                        class="accordion-link p-4 mb-0"
+                        data-bs-toggle="pill"
+                        href="#collapseFour"
+                        onclick="changeImage('img/pexels-zeng-jinwen-679366437-17912719.jpg')"
+                    >
+                        <h5 class="mb-0">عرض: خدمة سريعة وفعالة</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="tab-content">
+                    <div id="collapseOne" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img
+                                    id="offerImage"
+                                    src="img/istockphoto-1395748211-612x612.jpg"
+                                    class="img-fluid w-100 rounded"
+                                    alt="نقل العفش بأمان"
+                                />
+                            </div>
+                            <div class="col-md-5  text-right">
+                                <h1 class="display-5 mb-4">  نقل العفش بأمان تام</h1>
+                                <p class="mb-4">
+                                    احصل على خصم 20% عند حجز خدمة نقل العفش بأمان مع استخدام معدات حديثة لضمان سلامة كل قطعة.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#"
+                                    >اعرف المزيد</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseTwo" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img
+                                    id="offerImage"
+                                    src="img/istockphoto-135385164-612x612.jpg"
+                                    class="img-fluid w-100 rounded"
+                                    alt="تغليف احترافي"
+                                />
+                            </div>
+                            <div class="col-md-5  text-right">
+                                <h1 class="display-5 mb-4"> تغليف احترافي لحماية أثاثك </h1>
+                                <p class="mb-4">
+                                    احصل على خصم 15% على خدمات التغليف الاحترافي لحماية أثاثك خلال عملية النقل.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#"
+                                    >اعرف المزيد</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseThree" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img
+                                    id="offerImage"
+                                    src="img/pexels-rdne-7464393.jpg"
+                                    class="img-fluid w-100 rounded"
+                                    alt="فك وتركيب الأثاث"
+                                />
+                            </div>
+                            <div class="col-md-5  text-right">
+                                <h1 class="display-5 mb-4"> فك وتركيب الأثاث مجانًا عند النقل </h1>
+                                <p class="mb-4">
+                                    احصل على خدمة فك وتركيب الأثاث مجانًا عند حجز خدمة النقل لدينا.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#"
+                                    >اعرف المزيد</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseFour" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img
+                                    id="offerImage"
+                                    src="img/pexels-zeng-jinwen-679366437-17912719.jpg"
+                                    class="img-fluid w-100 rounded"
+                                    alt="خدمة سريعة"
+                                />
+                            </div>
+                            <div class="col-md-5  text-right">
+                                <h1 class="display-5 mb-4"> خدمة سريعة وفعالة </h1>
+                                <p class="mb-4">
+                                    نحن نضمن لك خدمة سريعة وفعالة، مع الالتزام بالمواعيد المحددة. احصل على خصم 10% عند الحجز المبكر.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#"
+                                    >اعرف المزيد</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+      function changeImage(imageSrc) {
+        document.getElementById("offerImage").src = imageSrc;
+      }
+    </script>
+
+    <!-- Offer End -->
+
+   
+
+    <!-- FAQs Start -->
+
+
+<div class="container-fluid faq-section pb-5 w-[90%] mx-auto" id="faq">
+    <div class="container pb-5 overflow-hidden">
+        <div class="text-center mx-auto pb-5" style="max-width: 800px wow fadeInUp">
+            <h4 class="text-primary">الأسئلة الشائعة</h4>
+            <h1 class="display-5 mb-4">أسئلة متكررة حول نقل العفش</h1>
+            <p class="mb-0">
+                إذا كنت تفكر في نقل العفش، فإليك بعض الأسئلة الشائعة التي قد تساعدك في اتخاذ القرار الصحيح. نحن هنا لنقدم لك أفضل الخدمات لضمان تجربة نقل مريحة وآمنة.
+            </p>
+        </div>
+        <div class="row g-5 align-items-center "  >
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="accordion accordion-flush bg-light rounded" id="accordionFlushSection">
+                    <div class="accordion-item rounded-top">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed rounded-top" type="button" onclick="toggleText('textBox1')">
+                                ما هي خدمات نقل العفش التي تقدمونها؟
+                            </button>
+                        </h2>
+                        <div id="textBox1" class="text-box bg-white ">
+                          
+                            نحن نقدم خدمات نقل العفش، التغليف، الفك والتركيب، بالإضافة إلى خدمات التخزين الآمنة.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox2')">
+                                كيف يمكنني التأكد من سلامة أثاثي أثناء النقل؟
+                            </button>
+                        </h2>
+                        <div id="textBox2" class="text-box bg-white">
+                            نستخدم مواد تغليف عالية الجودة ونوفر تأمينًا على الأثاث لضمان سلامته أثناء النقل.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox3')">
+                                هل يمكنني تحديد موعد محدد لنقل العفش؟
+                            </button>
+                        </h2>
+                        <div id="textBox3" class="text-box bg-white">
+                            نعم، يمكنك تحديد موعد يناسبك لعملية النقل، وسنقوم بالتنسيق معك لضمان تلبية احتياجاتك.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox4')">
+                                ما هي تكلفة خدمات نقل العفش؟
+                            </button>
+                        </h2>
+                        <div id="textBox4" class="text-box bg-white">
+                            تعتمد التكلفة على حجم الأثاث والمسافة بين المواقع، ويمكننا تقديم عرض أسعار مخصص عند الاتصال بنا.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox5')">
+                                هل تقدمون خدمات التخزين للأثاث؟
+                            </button>
+                        </h2>
+                        <div id="textBox5" class="text-box bg-white">
+                            نعم، نحن نقدم خدمات تخزين آمنة للأثاث إذا كنت بحاجة إلى ذلك.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="bg-primary rounded overflow-hidden">
+                    <img src="img/pexels-donaldtong94-189333.jpg" class="img-fluid w-100 rounded " alt="نقل العفش" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleText(textBoxId) {
+        
+        const textBoxes = document.querySelectorAll('.text-box');
+        textBoxes.forEach(box => {
+            if (box.id !== textBoxId) {
+                box.style.display = 'none'; 
+            }
+        });
+
+      
+        const selectedBox = document.getElementById(textBoxId);
+        if (selectedBox.style.display === 'none' || selectedBox.style.display === '') {
+            selectedBox.style.display = 'block'; 
+        } else {
+            selectedBox.style.display = 'none'; 
+        }
+    }
+</script>
+
+
+    <!-- FAQs End -->
+
+  
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial pb-5">
+  <div class="container pb-5">
+    <div
+      class="text-center mx-auto pb-5 wow fadeInUp"
+      data-wow-delay="0.2s"
+      style="max-width: 800px"
+    >
+      <h4 class="text-primary">آراء العملاء</h4>
+      <h1 class="display-5 mb-4">مراجعات عملائنا</h1>
+      <p class="mb-0">
+        نحن في شركة نقل العفش نعتز بتقديم أفضل الخدمات لعملائنا. إليكم بعض الآراء من عملائنا الذين استخدموا خدماتنا في نقل العفش.
+      </p>
+    </div>
+    <div
+      class="owl-carousel testimonial-carousel wow fadeInUp"
+      data-wow-delay="0.2s"
+    >
+      <div class="testimonial-item">
+        <div class="testimonial-quote-left">
+          <i class="fas fa-quote-left fa-2x"></i>
+        </div>
+        <div class="testimonial-img">
+          <img src="img/testimonial-1.jpg" class="img-fluid" alt="عميل 1" />
+        </div>
+        <div class="testimonial-text">
+          <p class="mb-0">
+            كانت تجربتي مع شركة نقل العفش ممتازة. كانوا محترفين للغاية وساعدوني في نقل جميع أغراضي بأمان وسرعة.
+          </p>
+        </div>
+        <div class="testimonial-title">
+          <div>
+            <h4 class="mb-0">أحمد العلي</h4>
+            <p class="mb-0">عميل سعيد</p>
+          </div>
+          <div class="d-flex text-primary">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-quote-right">
+          <i class="fas fa-quote-right fa-2x"></i>
+        </div>
+      </div>
+      <div class="testimonial-item">
+        <div class="testimonial-quote-left">
+          <i class="fas fa-quote-left fa-2x"></i>
+        </div>
+        <div class="testimonial-img">
+          <img src="img/testimonial-2.jpg" class="img-fluid" alt="عميل 2" />
+        </div>
+        <div class="testimonial-text">
+          <p class="mb-0">
+            خدمة رائعة! كانت عملية النقل سلسة، والفريق كان ودودًا ومتعاونًا. أنصح الجميع باستخدام خدماتهم.
+          </p>
+        </div>
+        <div class="testimonial-title">
+          <div>
+            <h4 class="mb-0">سارة محمد</h4>
+            <p class="mb-0">عميلة راضية</p>
+          </div>
+          <div class="d-flex text-primary">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-quote-right">
+          <i class="fas fa-quote-right fa-2x"></i>
+        </div>
+      </div>
+      <div class="testimonial-item">
+        <div class="testimonial-quote-left">
+          <i class="fas fa-quote-left fa-2x"></i>
+        </div>
+        <div class="testimonial-img">
+          <img src="img/testimonial-3.jpg" class="img-fluid" alt="عميل 3" />
+        </div>
+        <div class="testimonial-text">
+          <p class="mb-0">
+            كانت تجربتي مع هذه الشركة رائعة. لقد اهتموا بكل التفاصيل، ولم أواجه أي مشاكل أثناء النقل.
+          </p>
+        </div>
+        <div class="testimonial-title">
+          <div>
+            <h4 class="mb-0">محمد سعيد</h4>
+            <p class="mb-0">عميل مخلص</p>
+          </div>
+          <div class="d-flex text-primary">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-quote-right">
+          <i class="fas fa-quote-right fa-2x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+   <div class="container-fluid footer py-5 text-right wow fadeIn" data-wow-delay="0.2s" dir="rtl">
+    <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgba(255, 255, 255, 0.08)">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="footer-item">
+                    <a href="index.html" class="p-0">
+                        <h4 class="text-white">
+                            <i class="fas fa-search-dollar me-3"></i>خدمات النقل
+                        </h4>
+                    </a>
+                    <p class="mb-4">
+                        نحن نقدم خدمات نقل العفش بأعلى جودة وبأسعار تنافسية. اتصل بنا لتجربة نقل مريحة وآمنة.
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="footer-item">
+                    <h4 class="text-white mb-4">روابط سريعة</h4>
+                    <a href="#about"><i class="fas fa-angle-right me-2"></i> من نحن</a>
+                    <a href="#faq"><i class="fas fa-angle-right me-2"></i> الأسئلة الشائعة</a>
+                    <a href="#service"><i class="fas fa-angle-right me-2"></i> خدماتنا</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="footer-item">
+                    <h4 class="text-white mb-4">معلومات الاتصال</h4>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                        <p class="text-white mb-0">123 شارع جدة، المملكة العربية السعودية</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-envelope text-primary me-3"></i>
+                        <p class="text-white mb-0">info@movingcompany.com</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-phone-alt text-primary me-3"></i>
+                        <p class="text-white mb-0">(+966) 1234 5678</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="fab fa-firefox-browser text-primary me-3"></i>
+                        <p class="text-white mb-0">yourwebsite@ex.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer End -->
+<!-- buttons coll -->
+ 
+<div class="fixed bottom-4 left-4 flex flex-col gap-3 z-50">
+
+  <a href="tel:0123456789" class="bg-blue-600 text-white rounded-full p-3 shadow-lg hover:bg-blue-700 transition duration-300 flex items-center justify-center w-14 h-14">
+    <i class="fas fa-phone-alt text-xl"></i>
+  </a>
+  <a href="https://wa.me/966123456789" target="_blank" class="bg-green-500 text-white rounded-full p-3 shadow-lg hover:bg-green-600 transition duration-300 flex items-center justify-center w-14 h-14">
+    <i class="fab fa-whatsapp text-xl"></i>
+  </a>
+</div>
+
+ 
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+   
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
