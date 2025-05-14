@@ -279,13 +279,16 @@ body{
 }
 
 .header-carousel .owl-nav .owl-prev {
-    bottom: 30px;
+     bottom: 30px;
     left: 30px;
-    margin-left: 90px;
+    
+   
 }
 .header-carousel .owl-nav .owl-next {
-    bottom: 30px;
+   bottom: 30px;
     left: 30px;
+    margin-left: 90px;
+     
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -530,7 +533,7 @@ body{
 .blog .owl-nav .owl-prev {
     position: absolute;
     top: -58px;
-    left: 0;
+    right: 0;
     background: var(--bs-primary);
     color: var(--bs-white);
     padding: 6px 35px;
@@ -544,14 +547,18 @@ body{
 }
 
 .blog .owl-nav .owl-next {
-    position: absolute;
+
+
+     position: absolute;
     top: -58px;
-    right: 0;
+    left: 0;
     background: var(--bs-primary);
     color: var(--bs-white);
     padding: 6px 35px;
     border-radius: 30px;
     transition: 0.5s;
+
+   
 }
 
 .blog .owl-nav .owl-next:hover {
