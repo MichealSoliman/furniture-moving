@@ -11,6 +11,16 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 
+  <!-- meta twitter -->
+   <meta name="twitter:title" content="خدمات نقل العفش في جدة - أفضل شركات النقل والتغليف والتخزين">
+    <meta name="twitter:description" content="نقل العفش في جدة بشكل احترافي وآمن. نقدم خدمات تغليف، فك وتركيب الأثاث مع ضمان الأمان الكامل. اتصل بنا للحصول على عرض سعر مخصص.">
+    <meta name="twitter:image" content="url_to_image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- meta og -->
+     <meta property="og:title" content="خدمات نقل العفش في جدة - أفضل شركات النقل والتغليف والتخزين">
+<meta property="og:description" content="نقل العفش في جدة بأعلى مستوى من الاحترافية. نقدم خدمات تغليف وفك وتركيب الأثاث مع ضمان الأمان والراحة. اتصل بنا اليوم للحصول على عرض سعر مخصص.">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,7 +52,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
-    
+    <!-- Alpine.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -62,7 +73,7 @@
     </style>
   </head>
 
-  <body>
+  <body style="font-family: 'Alexandria', sans-serif;">
     <!-- Spinner Start -->
     <div
       id="spinner"
@@ -79,7 +90,7 @@
     <!-- Spinner End -->
 
     <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0" >
+    <div class="container-fluid  position-relative p-0" >
 <!-- Navbar -->
       <nav class="bg-green-400 shadow-md px-4 py-3 md:px-8 rtl  text-right py-4" dir="rtl">
         <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between">
@@ -165,9 +176,9 @@
             <div class="container">
               <div class="row">
                 <div class="col-xl-7 m-auto">
-                  <h4 class="text-primary text-uppercase font-bold mb-4">
+                  <h2 class="text-primary  font-bold mb-4">
                     أهلاً بكم في نقل عفش جدة
-                  </h4>
+                  </h2>
                   <h1 class="text-white text-4xl mb-4">
                     نقل عفش سريع وآمن داخل جدة
                   </h1>
@@ -236,12 +247,12 @@
     <!-- Navbar & Hero End -->
 
     <!-- About Start -->
-    <section class="bg-white py-10 px-4 pt-[70px]" dir="rtl"id="about"> >
+    <section class="bg-white py-10 px-4 pt-[70px]" dir="rtl"id="about"> 
       <div
         class="container w-[90%] mx-auto flex flex-col lg:flex-row items-center gtext-start gap-10"
       >
-        <div class="lg:w-7/12 space-y-6">
-          <h4 class="text-green-400 text-xl font-semibold">من نحن</h4>
+        <div class="lg:w-7/12 space-y-6 wow fadeInRight">
+          <h4 class="text-green-400 text-4xl font-bold">من نحن</h4>
           <h2 class="text-3xl md:text-4xl font-bold">
             نحن شركتك المثالية لنقل العفش بكل احترافية
           </h2>
@@ -254,7 +265,7 @@
             <div class="flex items-start gap-4">
               <i class="fas fa-dolly-flatbed text-green-400 text-3xl"></i>
               <div>
-                <h4 class="text-lg font-semibold">نقل سريع وآمن</h4>
+                <h4 class="text-lg font-semibold text-3xl">نقل سريع وآمن</h4>
                 <p class="text-sm text-gray-400">
                   نقل الأثاث بأحدث السيارات المغلقة والمجهزة.
                 </p>
@@ -262,9 +273,9 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <i class="fas fa-boxes text-green-400 text-3xl"></i>
+              <i class="fas fa-boxes text-green-400 text-3xl "></i>
               <div>
-                <h4 class="text-lg font-semibold">تغليف احترافي</h4>
+                <h4 class="text-lg font-semibold text-3xl">تغليف احترافي</h4>
                 <p class="text-sm text-gray-600">
                   نوفر مواد تغليف متينة لحماية جميع أنواع الأثاث.
                 </p>
@@ -282,26 +293,22 @@
             <div class="flex items-center gap-4">
               <i class="fas fa-phone-alt text-green-400 text-2xl"></i>
               <div>
-                <h4 class="font-semibold">اتصل بنا</h4>
+                <h4 class="font-semibold text-2xl">اتصل بنا</h4>
                 <p class="text-lg tracking-wide">+966 50 123 4567</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="lg:w-5/12 relative">
-          <div class="relative overflow-hidden rounded-lg shadow-lg">
+        <div class="lg:w-5/12 relative wow fadeInLeft">
+          <div class="relative overflow-hidden rounded-lg shadow-lg ">
             <img
               src="img/pexels-rdne-7464687.jpg"
               alt="نقل عفش"
-              class="rounded-top-4 w-full h-72 object-cover hover:scale-105 transition duration-500"
+              class="rounded-top-4 w-full h-72 object-cover hover:scale-105 transition duration-500 "
             />
 
-            <img
-              src="img/istockphoto-1395748211-612x612.jpg"
-              alt=""
-              class="rounded-b-lg w-full h-40 object-cover hover:scale-105 transition duration-500"
-            />
+           
           </div>
         </div>
       </div>
@@ -310,14 +317,15 @@
     <!-- About End -->
 
     <!-- Services Start -->
-    <div class="container-fluid blog pb-5 pt-5 " id="service">
+    <div class="container-fluid  blog pb-5 pt-5 " id="service">
       <div class="container pb-5 ">
         <div
           class="text-center mx-auto pb-5 wow fadeInUp"
           data-wow-delay="0.2s"
           style="max-width: 800px"
         >
-          <h4 class="text-primary"> خدماتنا</h4>
+          <h2 class="text-primary text-2xl bold"> خدماتنا</h2>
+          
           <h1 class="display-5 mb-4">أفضل خدمات نقل العفش بأعلى جودة</h1>
           <p class="mb-0">
             نحن نقدم معلومات قيمة ونصائح حول كيفية نقل العفش بأمان وسهولة. تابع
@@ -476,21 +484,21 @@
     <!-- Services End -->
 
     <!-- Offer Start -->
-    <div class="container-fluid offer-section pb-5 w-[90%] mx-auto" id="offer">
+    <div class="container-fluid offer-section pb-5 w-[90%] mx-auto" id="offer" dir ="rtl">
     <div class="container pb-5">
         <div
             class="text-center mx-auto pb-5 wow fadeInUp"
             data-wow-delay="0.2s"
             style="max-width: 800px"
         >
-            <h4 class="text-primary">عروضنا الخاصة</h4>
+            <h2 class="text-primary text-2xl">عروضنا الخاصة</h2>
             <h1 class="display-5 mb-4">استفد من عروضنا المميزة</h1>
             <p class="mb-0">
                 احصل على أفضل العروض على خدمات نقل العفش لدينا. نحن نقدم خصومات مميزة على خدمات النقل والتغليف، مما يضمن لك تجربة مريحة وآمنة.
             </p>
         </div>
-        <div class="row g-5 align-items-center">
-            <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+        <div class="row g-5 align-items-center ">
+            <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="nav nav-pills  rounded ">
                     <a
                         class="accordion-link p-4 active mb-4"
@@ -498,7 +506,7 @@
                         href="#collapseOne"
                         onclick="changeImage('img/istockphoto-1395748211-612x612.jpg')"
                     >
-                        <h5 class="mb-0">عرض خاص: نقل العفش بأمان</h5>
+                        <p class="mb-0 text-1xl text-black"> <span class="text-green-500 font-bold ">  عرض  </span>: نقل العفش بأمان</p>
                     </a>
                     <a
                         class="accordion-link p-4 mb-4"
@@ -506,7 +514,9 @@
                         href="#collapseTwo"
                         onclick="changeImage('img/istockphoto-135385164-612x612.jpg')"
                     >
-                        <h5 class="mb-0">عرض: تغليف احترافي بسعر مخفض</h5>
+                      <p class="mb-0 text-1xl text-black"> <span class="text-green-500 font-bold">عرض </span>: تغليف احترافي بسعر مخفض</p>
+
+
                     </a>
                     <a
                         class="accordion-link p-4 mb-4"
@@ -514,7 +524,7 @@
                         href="#collapseThree"
                         onclick="changeImage('img/pexels-rdne-7464393.jpg')"
                     >
-                        <h5 class="mb-0">عرض: فك وتركيب الأثاث مجانًا عند النقل</h5>
+                    <p class="mb-0 text-1xl text-black"> <span class="text-green-500 font-bold">عرض </span>:    فك وتركيب الاثاث مجانًا عند النقل</p>
                     </a>
                     <a
                         class="accordion-link p-4 mb-0"
@@ -522,11 +532,11 @@
                         href="#collapseFour"
                         onclick="changeImage('img/pexels-zeng-jinwen-679366437-17912719.jpg')"
                     >
-                        <h5 class="mb-0">عرض: خدمة سريعة وفعالة</h5>
+                    <p class="mb-0 text-1xl text-black"> <span class="text-green-500 font-bold">عرض </span>:  خدمة سريعة وفعالة</p>
                     </a>
                 </div>
             </div>
-            <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+            <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="tab-content">
                     <div id="collapseOne" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
@@ -632,114 +642,238 @@
     <!-- FAQs Start -->
 
 
-<div class="container-fluid faq-section pb-5 w-[90%] mx-auto" id="faq">
-    <div class="container pb-5 overflow-hidden">
-        <div class="text-center mx-auto pb-5" style="max-width: 800px wow fadeInUp">
-            <h4 class="text-primary">الأسئلة الشائعة</h4>
+
+
+<section id="faq" class="bg-gray-100 py-5 " dir="rtl" x-data="{
+  activeIndex: null,
+  faqs: [ 
+    { q: 'ما هي خدمات نقل العفش التي تقدمونها؟', a: 'نحن نقدم خدمات نقل العفش، التغليف، الفك والتركيب، بالإضافة إلى خدمات التخزين الآمنة.' },
+    { q: 'كيف يمكنني التأكد من سلامة أثاثي أثناء النقل؟', a: 'نستخدم مواد تغليف عالية الجودة ونوفر تأمينًا على الأثاث لضمان سلامته أثناء النقل.' },
+    { q: 'هل يمكنني تحديد موعد محدد لنقل العفش؟', a: 'نعم، يمكنك تحديد موعد يناسبك وسنقوم بالتنسيق معك.' },
+    { q: 'ما هي تكلفة خدمات نقل العفش؟', a: 'تعتمد التكلفة على حجم العفش والمسافة، وسنقدم لك عرض أسعار مخصص.' },
+    { q: 'هل تقدمون خدمات التخزين للأثاث؟', a: 'نعم، نقدم خدمات تخزين آمنة للأثاث بحسب احتياجك.' }
+  ]
+}">
+  <div class="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+     <div class="text-center mx-auto py-5 wow fadeInUp " style="max-width: 800px ">
+            <h4 class="text-primary text-2xl">الأسئلة الشائعة</h4>
             <h1 class="display-5 mb-4">أسئلة متكررة حول نقل العفش</h1>
             <p class="mb-0">
                 إذا كنت تفكر في نقل العفش، فإليك بعض الأسئلة الشائعة التي قد تساعدك في اتخاذ القرار الصحيح. نحن هنا لنقدم لك أفضل الخدمات لضمان تجربة نقل مريحة وآمنة.
             </p>
         </div>
-        <div class="row g-5 align-items-center "  >
-            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="accordion accordion-flush bg-light rounded" id="accordionFlushSection">
-                    <div class="accordion-item rounded-top">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed rounded-top" type="button" onclick="toggleText('textBox1')">
-                                ما هي خدمات نقل العفش التي تقدمونها؟
-                            </button>
-                        </h2>
-                        <div id="textBox1" class="text-box bg-white ">
-                          
-                            نحن نقدم خدمات نقل العفش، التغليف، الفك والتركيب، بالإضافة إلى خدمات التخزين الآمنة.
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox2')">
-                                كيف يمكنني التأكد من سلامة أثاثي أثناء النقل؟
-                            </button>
-                        </h2>
-                        <div id="textBox2" class="text-box bg-white">
-                            نستخدم مواد تغليف عالية الجودة ونوفر تأمينًا على الأثاث لضمان سلامته أثناء النقل.
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox3')">
-                                هل يمكنني تحديد موعد محدد لنقل العفش؟
-                            </button>
-                        </h2>
-                        <div id="textBox3" class="text-box bg-white">
-                            نعم، يمكنك تحديد موعد يناسبك لعملية النقل، وسنقوم بالتنسيق معك لضمان تلبية احتياجاتك.
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFour">
-                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox4')">
-                                ما هي تكلفة خدمات نقل العفش؟
-                            </button>
-                        </h2>
-                        <div id="textBox4" class="text-box bg-white">
-                            تعتمد التكلفة على حجم الأثاث والمسافة بين المواقع، ويمكننا تقديم عرض أسعار مخصص عند الاتصال بنا.
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFive">
-                            <button class="accordion-button collapsed" type="button" onclick="toggleText('textBox5')">
-                                هل تقدمون خدمات التخزين للأثاث؟
-                            </button>
-                        </h2>
-                        <div id="textBox5" class="text-box bg-white">
-                            نعم، نحن نقدم خدمات تخزين آمنة للأثاث إذا كنت بحاجة إلى ذلك.
-                        </div>
-                    </div>
-                </div>
+
+    <div class="grid md:grid-cols-2 gap-12 items-start wow fadeInUp " data-wow-delay="0.2s">
+      <!-- الأسئلة -->
+      <div class="space-y-4 wow fadeInRight">
+        <template x-for="(faq, i) in faqs" :key="i">
+          <div class="bg-white rounded-2xl shadow transition hover:shadow-md overflow-hidden">
+            <button @click="activeIndex = activeIndex === i ? null : i" class="w-full flex justify-between items-center px-6 py-4 text-right text-lg font-medium text-green-700 hover:bg-green-50 transition-all">
+              <span x-text="faq.q"></span>
+              <svg :class="activeIndex === i ? 'rotate-180' : ''" class="w-5 h-5 text-green-600 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div x-show="activeIndex === i" x-collapse x-transition class="px-6 pb-4 text-gray-600">
+              <p x-text="faq.a"></p>
             </div>
-            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
-                <div class="bg-primary rounded overflow-hidden">
-                    <img src="img/pexels-donaldtong94-189333.jpg" class="img-fluid w-100 rounded " alt="نقل العفش" />
-                </div>
-            </div>
-        </div>
+          </div>
+        </template>
+      </div>
+
+      <!-- الصورة -->
+      <div class="rounded-2xl overflow-hidden shadow-lg mt-5 hidden md:block wow fadeInLeft">
+        <img src="img/pexels-donaldtong94-189333.jpg" alt="نقل العفش" class="w-full h-full object-cover">
+      </div>
     </div>
-</div>
-
-<script>
-    function toggleText(textBoxId) {
-        
-        const textBoxes = document.querySelectorAll('.text-box');
-        textBoxes.forEach(box => {
-            if (box.id !== textBoxId) {
-                box.style.display = 'none'; 
-            }
-        });
-
-      
-        const selectedBox = document.getElementById(textBoxId);
-        if (selectedBox.style.display === 'none' || selectedBox.style.display === '') {
-            selectedBox.style.display = 'block'; 
-        } else {
-            selectedBox.style.display = 'none'; 
-        }
-    }
-</script>
+  </div>
+</section>
 
 
     <!-- FAQs End -->
 
+
+
+
+
+<!-- start gallary section -->
+
+<section class="bg-white py-16" dir="rtl">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12 wow fadeInUp">
+ <h4 class="text-primary text-2xl"> معرض الصور</h4>
+      <p class="p-2">
+        شاهد بعضًا من أعمالنا في نقل وتغليف العفش داخل وخارج جدة.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 wow fadeInUp " data-wow-delay="0.2s">
+
+      <!-- نقل عفش داخلي -->
+      <div class="relative overflow-hidden rounded-xl shadow-md group cursor-pointer"
+        onclick="openLightbox('img/istockphoto-928084778-612x612.jpg', 'نقل عفش داخلي')">
+        <img src="img/istockphoto-928084778-612x612.jpg" alt="نقل عفش داخلي"
+          class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-110">
+        <div
+          class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="bg-green-500 rounded-full p-3 mb-3">
+            <!-- Truck Icon -->
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 17V6h13v11h-4M3 17h3M3 13h6m13 0h-4m-6 4h1.5a1.5 1.5 0 100-3H12a1.5 1.5 0 000 3z" />
+            </svg>
+          </div>
+          <p class="text-lg font-semibold">نقل عفش داخلي</p>
+        </div>
+      </div>
+
+      
+      <div class="relative overflow-hidden rounded-xl shadow-md group cursor-pointer"
+        onclick="openLightbox('img/pexels-photo-4246119.webp', 'تغليف عفش')">
+        <img src="img/free-photo-of-men-opening-delivery-in-room.jpeg" alt="تغليف عفش"
+          class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-110">
+        <div
+          class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="bg-green-500 rounded-full p-3 mb-3">
+            <!-- Package Icon -->
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 7l9-4 9 4-9 4-9-4zm0 5l9 4 9-4M3 12v5l9 4 9-4v-5" />
+            </svg>
+          </div>
+          <p class="text-lg font-semibold">تغليف عفش</p>
+        </div>
+      </div>
+
+   
+      <div class="relative overflow-hidden rounded-xl shadow-md group cursor-pointer"
+        onclick="openLightbox('img/istockphoto-530202984-612x612.jpg', 'ونش رفع')">
+        <img src="img/istockphoto-530202984-612x612.jpg" alt="ونش رفع"
+          class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-110">
+        <div
+          class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="bg-green-500 rounded-full p-3 mb-3">
+            <!-- Arrow Up Icon (رفع) -->
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M5 10l7-7m0 0l7 7m-7-7v18" />
+            </svg>
+          </div>
+          <p class="text-lg font-semibold">ونش رفع</p>
+        </div>
+      </div>
+
+      
+      <div class="relative overflow-hidden rounded-xl shadow-md group cursor-pointer"
+        onclick="openLightbox('img/istockphoto-1284193221-612x612.jpg', 'تخزين أثاث')">
+        <img src="img/istockphoto-1284193221-612x612.jpg" alt="تخزين أثاث"
+          class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-110">
+        <div
+          class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="bg-green-500 rounded-full p-3 mb-3">
+            <!-- Archive Box Icon -->
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 4a1 1 0 011-1h16a1 1 0 011 1v3H3V4zm0 4h18v11a1 1 0 01-1 1H4a1 1 0 01-1-1V8zm10 4h4m-4 0v4m0-4H8" />
+            </svg>
+          </div>
+          <p class="text-lg font-semibold">تخزين أثاث</p>
+        </div>
+      </div>
+
+      
+      <div class="relative overflow-hidden rounded-xl shadow-md group cursor-pointer"
+        onclick="openLightbox('img/istockphoto-930527820-612x612.jpg', 'نقل خارجي')">
+        <img src="img/pexels-photo-7464689.jpeg" alt="نقل خارجي"
+          class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-110">
+        <div
+          class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="bg-green-500 rounded-full p-3 mb-3">
+            
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 0c2.5 1.5 4 4 4 7s-1.5 5.5-4 7c-2.5-1.5-4-4-4-7s1.5-5.5 4-7z" />
+            </svg>
+          </div>
+          <p class="text-lg font-semibold">نقل خارجي</p>
+        </div>
+      </div>
+
+     
+      <div class="relative overflow-hidden rounded-xl shadow-md group cursor-pointer"
+        onclick="openLightbox('img/istockphoto-930527820-612x612.jpg', 'عمال مدربين')">
+        <img src="img/istockphoto-930527820-612x612.jpg" alt="عمال مدربين"
+          class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-110">
+        <div
+          class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="bg-green-500 rounded-full p-3 mb-3">
+            <!-- Users Icon -->
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87m3-1.13a4 4 0 100-8 4 4 0 000 8zm6 0a4 4 0 100-8 4 4 0 000 8z" />
+            </svg>
+          </div>
+          <p class="text-lg font-semibold">عمال مدربين</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox"
+    class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
+    <div class="relative max-w-3xl w-full mx-auto">
+      <button onclick="closeLightbox()"
+        class="absolute top-4 left-4 bg-white text-green-500 rounded-full p-2 shadow-md z-50">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <img id="lightbox-img" src="" alt="" class="w-full rounded-lg shadow-lg">
+      <p id="lightbox-caption" class="text-green-500 text-center mt-4 text-lg"></p>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  function openLightbox(imgSrc, caption) {
+    document.getElementById('lightbox-img').src = imgSrc;
+    document.getElementById('lightbox-caption').innerText = caption;
+    document.getElementById('lightbox').classList.remove('hidden');
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.add('hidden');
+    document.getElementById('lightbox-img').src = '';
+  }
+</script>
+<!-- end gallary section -->
+
+
+
+
+
     <!--start Our employees  -->
-<section class="bg-gray-100 py-12" id="employees">
-  <div class="max-w-7xl mx-auto px-4 text-right" dir="rtl">
+<section class="bg-gray-100 py-12 " id="employees">
+  <div class="max-w-7xl mx-auto px-4 text-right  wow fadeInUp" dir="rtl">
     <div class="mb-12 text-center">
-      <h2 class="text-3xl font-bold text-green-700 mb-4">مهام موظفينا في عملية نقل العفش</h2>
-      <p class="text-gray-700 text-lg">
+      <h4 class="text-primary text-2xl mb-2">مهام موظفينا في عملية نقل العفش</h4>
+      <p class="">
         يتم تدريب فريقنا على تنفيذ جميع مراحل نقل العفش باحترافية لضمان سلامة الأثاث ورضا العميل.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-4  wow fadeInUp" data-wow-delay="0.2s">
 
       <!-- Card Template Start -->
       <div class="group bg-gree shadow-md rounded-2xl p-6 transition-all duration-300 hover:bg-green-500">
@@ -821,11 +955,54 @@
 
 
     <!--end Our employees  -->
+    <!--start Our service areas -->
+<section class="bg-white py-16 overflow-hidden py-5" dir="rtl">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 wow fadeInUp">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl text-primary mb-2">المناطق التي نخدمها</h2>
+      <p class="">
+        نقدم خدماتنا في جميع أحياء مدينة جدة والمناطق المحيطة بها لتلبية احتياجاتكم في نقل وتغليف العفش بكل احترافية.
+      </p>
+    </div>
+
+    <div class="relative w-full overflow-hidden">
+      <div class="whitespace-nowrap animate-scroll flex gap-4">
+        <!-- عنصر حي واحد - كرره حسب الحاجة -->
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي الصفا</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي النسيم</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي الشاطئ</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي الحمدانية</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي الفيصلية</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي النهضة</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي الروضة</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي الجامعة</div>
+        <div class="bg-green-500 rounded-lg py-3 px-6 shadow-sm hover:shadow-md transition inline-block text-white">حي العزيزية</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 30s linear infinite;
+  }
+</style>
+  <!--end Our service areas -->
+
 
   
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-5">
+    <div class="container-fluid testimonial pb-5 bg-gray-100 ">
   <div class="container pb-5 py-5">
     <div
       class="text-center mx-auto pb-5 wow fadeInUp"
@@ -847,7 +1024,7 @@
           <i class="fas fa-quote-left fa-2x"></i>
         </div>
         <div class="testimonial-img">
-          <img src="img/testimonial-1.jpg" class="img-fluid" alt="عميل 1" />
+          <img src="img/team-1.jpg" class="img-fluid" alt="عميل 1" />
         </div>
         <div class="testimonial-text">
           <p class="mb-0">
@@ -876,7 +1053,7 @@
           <i class="fas fa-quote-left fa-2x"></i>
         </div>
         <div class="testimonial-img">
-          <img src="img/testimonial-2.jpg" class="img-fluid" alt="عميل 2" />
+          <img src="img/team-4.jpg" class="img-fluid" alt="عميل 2" />
         </div>
         <div class="testimonial-text">
           <p class="mb-0">
@@ -905,7 +1082,7 @@
           <i class="fas fa-quote-left fa-2x"></i>
         </div>
         <div class="testimonial-img">
-          <img src="img/testimonial-3.jpg" class="img-fluid" alt="عميل 3" />
+          <img src="img/team-3.jpg" class="img-fluid" alt="عميل 3" />
         </div>
         <div class="testimonial-text">
           <p class="mb-0">
