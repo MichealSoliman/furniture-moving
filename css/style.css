@@ -1,4 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 16px;
 
+}
+
+h1,
+h2,
+h3,h4,h5,h6 {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+}
+span{
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: var(--bs-dark);
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: none;
+    color: var(--bs-primary);
+    font-family: 'Alexandria', sans-serif;
+}
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
